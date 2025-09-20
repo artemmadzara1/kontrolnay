@@ -1,0 +1,20 @@
+# задача 1
+number=100
+kb = 100*1024
+b =100 *1024 *1024
+bit= 100 * 1024 *1024 * 8
+print(kb,b,bit)
+# задача 2
+n = input()
+num_chars =(len(n))
+num_char =2
+total =num_chars*num_char
+print(total)
+# задача 3
+user =input("введите что хотите")
+if user == "напиток":
+    a =input("какой напиток вы хотите")
+    if a == "молочный":
+        print("на те коктель")
+    if a =="что нибудбь из фруктов":
+        print("вот фреш")
